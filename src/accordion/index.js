@@ -5,6 +5,8 @@ import './style.scss';
 import Edit from './Edit';
 import Save from './Save';
 
+const { __ } = i18n;
+
 const BLOCK_ATTRIBUTES = {
     collapseItemsOnChange: {
         type: 'boolean',
